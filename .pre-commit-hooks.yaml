@@ -1,0 +1,6 @@
+-   id: hide-hassio-secrets
+    name: hide home assistant secrets
+    description: generates a dummy secrets.yaml file
+    language: python
+    entry: hide-hassio-secrets
+    files: '^$'
