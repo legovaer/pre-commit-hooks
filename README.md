@@ -17,7 +17,7 @@ Add this to your `.pre-commit-config.yaml`
 -   repo: https://github.com/legovaer/pre-commit-hooks
     rev: v1.0.0  # Use the ref you want to point at
     hooks:
-    -   id: trailing-whitespace
+    -   id: hide-hassio-secrets
     # -   id: ...
 ```
 
